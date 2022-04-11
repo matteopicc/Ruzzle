@@ -1,0 +1,27 @@
+INPUT PROBLEMA
+   -Stringa da riconoscere 'parola'
+   -Posizione della prima lettera
+   
+SOLUZIONE PARZIALE
+   -Una stringa, la parte della parola che ho già riconosciuto
+   -Elenco delle posizioni delle lettere (Opzionale)
+   
+SOLUZIONE TOTALE
+   -Parola riconosciuta per intero
+   -Elenco delle posizioni delle lettere(Opzionale)
+   
+LIVELLO DELLA RICORSIONE
+   -Numero di caratteri riconosciuti
+   
+CONDIZIONI DI TERMINAZIONE
+   -Livello == lunghezza della parola da riconoscere
+   -Se viene trovata parola, stoppo la ricorsione
+   
+AVVIO RICORSIONE
+   -livello = 1
+   -parto dalla posizione della prima lettera (se c'è)
+   
+STRUTTURE DATI
+   -Stringa (parziale)
+   -int (livello)
+   -List<Pos> (parziale, il percorso)
